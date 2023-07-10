@@ -55,7 +55,7 @@ body {
     align-items: center;
 }
 
-.endereco {
+.meusdados {
     margin-left: 100px; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px; 
@@ -63,6 +63,28 @@ body {
     position: relative;
     bottom: 400px;
 }
+
+.fundobio {
+    background-color: gray;
+    border-radius: 3%;
+    max-width: 100px;
+    width: 100px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    bottom: 0px;
+
+}
+
+
+.bio {
+    display: block;
+    color:rgb(54, 54, 54);     
+}
+
+
+
+
     
 
 
