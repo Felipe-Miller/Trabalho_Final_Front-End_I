@@ -10,19 +10,24 @@ body {
 .display {
     display: flex;
     align-items: center;
-    min-width: 100vh; 
+    /*min-width: 100vh;*/
 }
 
 .perfil {
     margin-top: 0px;
     height: 100vh;
-    min-width: 30vh;
+    /*min-height: 100vh; */
+    /*min-width: 30vh;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: black;
     border-radius: 3%;
 }
+
+/* .perfil a 
+text-decoration: none;
+*/
 
 .foto {
     border-style:solid;
@@ -45,18 +50,17 @@ body {
 /* PÁGINA EXIBIDA */
 
 .nome {
-    margin-left: 100px;
-    margin-bottom: 300px;
+    /*margin-left: 100px;/*
+    /*margin-bottom: 300px;*/
     font-size: 6rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    padding-bottom: 50px;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    bottom: 10px;
+
 }
 
 .meusdados {
-    margin-left: 100px; 
+    /*margin-left: 100px;*/ 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px; 
     text-align: center;
