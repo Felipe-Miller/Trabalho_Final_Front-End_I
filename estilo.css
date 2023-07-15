@@ -72,6 +72,11 @@ body {
     bottom: 570px;
 }
 
+.icone {
+    width: 50px;
+    padding-left: 85px;
+}
+
 /* PÁGINA CONHECIMENTO */
 
 .textoconhecimento {
@@ -82,10 +87,16 @@ body {
     bottom: 630px;
 }
 
-.icone {
-    width: 50px;
-    padding-left: 85px;
+/* PÁGINA OBJEIVO */
+
+.textoobjetivo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px; 
+    position: relative;
+    left: 360px;
+    bottom: 630px;
 }
+
 
 
 
